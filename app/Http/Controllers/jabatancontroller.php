@@ -16,7 +16,7 @@ class jabatancontroller extends Controller
 public function __construct()
 {
 $this->middleware('superAdmin');
-$this->middleware('Hrd');
+$this->middleware('Keuangan');
 }
 public function index()
 {

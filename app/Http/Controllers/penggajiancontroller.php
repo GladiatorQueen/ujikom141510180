@@ -181,7 +181,7 @@ $penggajian=Input::all();
 
             $penggajian->jumlah_uang_lembur=$nol ;
 
-          foreach ($wherepegawai->lembur_pegawai as $data) {
+        foreach ($wherepegawai->lembur_pegawai as $data) {
 
                 $penggajian['jumlah_jam_lembur']=$data->jumlah_jam;
 
